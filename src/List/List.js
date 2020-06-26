@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import appContext from '../context/context';
+import appContext from '../appContext/appContext';
+import Main from '../Main/Main';
 
 export default class List extends Component {
    static contextType = appContext;
@@ -12,6 +13,7 @@ export default class List extends Component {
          <div className='list-container'>
             <ul>
                {obj}
+               <Main object={obj}/>
             </ul>
          </div>
       )

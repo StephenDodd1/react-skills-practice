@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import appContext from '../context/context';
+import appContext from '../appContext/appContext';
 
 export default class Header extends Component {
    constructor(props) {
