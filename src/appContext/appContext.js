@@ -5,9 +5,9 @@ const appContext = React.createContext({
    content: 'Child Context Property',
    newIndex: 0,
    appObject: [
-      'one',
-      'two',
-      'three'
+      {name: 'one'},
+      {name: 'two'},
+      {name: 'three'}
    ]
 })
 

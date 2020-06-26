@@ -22,7 +22,7 @@ export default class Main extends Component {
          <div className='main-container'>
             <appContext.Provider value={contextValue}>
                <button onClick={(e) => this.changeNum(e)} >Click</button>
-               <p>{b[this.state.newIndex]}</p>
+               <p>{b[this.state.newIndex].name}</p>
             </appContext.Provider>
          </div>
       )

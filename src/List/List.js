@@ -7,7 +7,7 @@ export default class List extends Component {
 
    render() {
       const arr = this.context.appObject;
-      const obj = arr.map((item, i) => <li key={`'${i}'`} >{item}</li>
+      const obj = arr.map((item, i) => <li key={`'${i}'`} >{item.name}</li>
       );
       return (
          <div className='list-container'>
